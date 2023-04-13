@@ -53,4 +53,25 @@ for (let i = 0; i < accordion.length; i++) {
 
 /*=============== DARK LIGHT THEME ===============*/
 
+const darkModeToggle = document.querySelector("#dark-mode-toggle");
+
+const lightMode = document.querySelector(".fa-sun");
+const darkedMode = document.querySelector(".fa-moon");
+
+const enableDarkMode = () => {
+  // 1. Add the class to the body
+  document.body.classList.add("darkmode");
+
+  darkedMode.style.display = "none";
+  lightMode.style.display = "block";
+};
+
+const disableDarkMode = () => {
+  // 1. Remove the class from the body
+  document.body.classList.remove("darkmode");
+
+  darkedMode.style.display = "block";
+  lightMode.style.display = "none";
+};
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
