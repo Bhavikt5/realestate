@@ -29,10 +29,6 @@
   --boxshadow: -1px 3px 8px 0px rgba(250, 248, 248, 0.2);
 }
 
-.fa-sun {
-  display: none;
-}
-
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;

@@ -58,6 +58,8 @@ const darkModeToggle = document.querySelector("#dark-mode-toggle");
 const lightMode = document.querySelector(".fa-sun");
 const darkedMode = document.querySelector(".fa-moon");
 
+lightMode.style.display = "none";
+
 const enableDarkMode = () => {
   // 1. Add the class to the body
   document.body.classList.add("darkmode");
