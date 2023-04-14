@@ -228,6 +228,7 @@ nav a:hover {
   height: 550px;
   border-radius: 50% 50% 0 0;
   position: absolute;
+  z-index: 8;
 }
 
 .homebox {

@@ -77,3 +77,21 @@ const disableDarkMode = () => {
 };
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 1500,
+  delay: 300,
+  // reset: true,
+});
+
+sr.reveal("#home .content h1, .title");
+sr.reveal("#home .content .bannerpara, .titleContent", { delay: 400 });
+sr.reveal(".searchbar, .accordionDiv, .cardBoxDiv, .swiper", { delay: 500 });
+sr.reveal(".homebox", { delay: 700 });
+sr.reveal(".bannerImg img, .valueImg img, .contactImg img", {
+  origin: "bottom",
+  delay: 500,
+});
+sr.reveal(".logos", { origin: "left", delay: 500, duration: 2000 });
